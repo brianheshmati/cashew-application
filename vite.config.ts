@@ -7,10 +7,10 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   base:"/cashew-application/",
   //plugins: [react()],
-  // server: {
-  //   host: "::",
-  //   port: 8080,
-  // },
+  server: {
+    host: "::",
+    port: 8080,
+  },
   plugins: [
     react(),
     mode === 'development' &&
